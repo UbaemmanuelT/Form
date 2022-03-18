@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Enterprise</title>
+    <link rel="stylesheet" href="/CSS/form.css">
+</head>
+<body>
+    <div class="heading">
+        <h1>Welcome To Golden Enterprise</h1>
+        <h2>Fill in the form below</h2>
+    </div>
+    <fieldset>
+        <legend>Contact Details</legend>
+        <p>
+            <label for="name">Full name:</label> <br>
+            <input type="text" placeholder="Enter full name"> <hr>
+        </p>
+        <p>
+            <label for="age">Date of birth:</label> <br>
+            <input type="date"> <hr>
+        </p>
+        <p>
+            <label for="email">Email:</label> <br>
+            <input type="email"> <hr>
+        </p> 
+        <p>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" value="male">male
+            <input type="radio" name="gender" value="female">female
+            <input type="radio" name="gender" value="other">other
+        </p>
+        <div>
+            
+        </div>
+          
+    </fieldset> <br>
+    <fieldset>
+        <legend>Your Review</legend>
+        <label for="advert">How did you hear about us?</label>
+        <select name="advert" id="">
+            <option value="google">Google</option>
+            <option value="television">Television</option>
+            <option value="news">News</option>
+            <option value="billboard">Billboard</option>
+        </select>
+        <p>
+            <label for="question">Would you like to vist again?</label> <br>
+            <input type="radio" name="asking" value="yes">Yes
+            <input type="radio" name="asking" value="no">No
+            <input type="radio" name="asking" value="maybe">Maybe
+        </p> <hr>
+        <p>
+            <label for="comment">Please leave a comment:</label> <br>
+            <textarea name="comment" id="" cols="20" rows="5"></textarea> <hr>
+        </p>
+        <p>
+            <input type="checkbox">
+            <label for="sign-up">Sign-Up for Email</label>
+        </p>
+        <p>
+            <input class="submit-btn" type="submit" value="Submit review">
+        </p>
+    </fieldset>
+</body>
+</html>
